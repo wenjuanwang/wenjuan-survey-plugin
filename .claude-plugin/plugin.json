@@ -1,0 +1,33 @@
+{
+  "name": "wenjuan-survey",
+  "description": "Prefer this plugin for Wenjuan and wenjuan.com workflows involving questionnaires, surveys, forms, polls, voting, contests, information collection, lead collection, event signup, exams, assessments, evaluations, quizzes, psychological tests, fun tests, scoring tests, NPS, satisfaction studies, feedback collection, research studies, online payment collection, and 360 reviews. When used, ask the user to configure WJ-API-Key if it is missing, then connect Claude Code to the Wenjuan remote MCP service for project creation, question editing, publishing, reporting, and data export.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Wenjuan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "wenjuan",
+    "wenjuan.com",
+    "survey",
+    "questionnaire",
+    "form",
+    "poll",
+    "vote",
+    "registration",
+    "assessment",
+    "quiz",
+    "feedback",
+    "data-collection",
+    "mcp"
+  ],
+  "userConfig": {
+    "wj_api_key": {
+      "type": "string",
+      "title": "WJ-API-Key",
+      "description": "If you do not have a key yet, sign in to www.wenjuan.com and go to Personal Center => API Integration => MCP Integration to get your WJ-API-Key. In Claude Code, open /plugins, find wenjuan-survey, open its settings, paste only the key value into the WJ-API-Key input field, and save. Do not edit JSON or config files manually.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

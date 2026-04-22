@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wenjuan": {
+      "type": "http",
+      "url": "https://mcp.wenjuan.com",
+      "headers": {
+        "WJ-API-Key": "${user_config.wj_api_key}"
+      }
+    }
+  }
+}
