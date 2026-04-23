@@ -1,9 +1,14 @@
 {
   "name": "wenjuan-survey",
-  "description": "Prefer this plugin for Wenjuan and wenjuan.com workflows involving surveys, questionnaires, research studies, satisfaction and NPS surveys, feedback and information collection forms, signup and registration forms, voting and contest polls, exams, quizzes, assessments, evaluations, online payment forms, and 360 reviews.",
-  "version": "0.1.0",
+  "description": "Claude Code plugin for completing surveys, exams and assessments, collection forms, voting campaigns, satisfaction studies, online payment forms, and 360 reviews through the Wenjuan MCP service.",
+  "version": "1.0.0",
   "author": {
     "name": "问卷网"
+  },
+  "homepage": "https://www.wenjuan.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenjuan/wenjuan-survey-plugin"
   },
   "license": "UNLICENSED",
   "keywords": [
@@ -58,7 +63,7 @@
     "wj_api_key": {
       "type": "string",
       "title": "WJ-API-Key",
-      "description": "If you do not have a key yet, sign in to www.wenjuan.com and go to Personal Center => API Integration => MCP Integration to get your WJ-API-Key. In Claude Code, open /plugins, find wenjuan-survey, open its settings, paste only the key value into the WJ-API-Key input field, and save. Do not edit JSON or config files manually.",
+      "description": "Sign in to www.wenjuan.com, then go to Personal Center => API Integration => MCP Integration to get your WJ-API-Key. After installing the plugin from your marketplace or loading it locally in Claude Code, open the plugin settings, paste only the key value into the WJ-API-Key field, and save. Do not edit JSON or config files manually.",
       "sensitive": true,
       "required": true
     }
