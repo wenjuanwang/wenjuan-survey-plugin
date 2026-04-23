@@ -2,14 +2,9 @@
   "name": "wenjuan-survey",
   "description": "Claude Code plugin for completing surveys, exams and assessments, collection forms, voting campaigns, satisfaction studies, online payment forms, and 360 reviews through the Wenjuan MCP service.",
   "version": "1.0.0",
-  "author": {
-    "name": "问卷网"
-  },
+  "author": "问卷网",
   "homepage": "https://www.wenjuan.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hapehuang/wenjuan-survey-plugin"
-  },
+  "repository": "https://github.com/wenjuanwang/wenjuan-survey-plugin",
   "license": "UNLICENSED",
   "keywords": [
     "wenjuan",
